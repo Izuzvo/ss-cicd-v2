@@ -42,7 +42,7 @@ jobs:
           python-version: '3.12'
 
       - name: Scan for secrets
-        uses: gitleaks/gitleaks-action@3
+        uses: gitleaks/gitleaks-action@v3
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
   
